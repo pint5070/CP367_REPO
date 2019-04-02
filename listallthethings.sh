@@ -39,7 +39,7 @@ then
         
 done
 else
-    echo no argument given
+    echo HI
 
 
 
