@@ -1,0 +1,31 @@
+1C.
+
+*   c925817 (HEAD -> master) Resolved conflict
+|\  
+| * 31b9c56 (inode_update) change
+* | 67dedab change
+* |   a50c8c9 Merge branch 'inode_update'
+|\ \  
+| |/  
+| * 8e78509 update ls
+* | a61dd12 update ls
+* | 340d0e1 update ls
+* |   7bce6e6 Merge branch 'inode_update'
+|\ \  
+| |/  
+| * 2a3996d update ls
+| * c464780 update ls
+* | 38214f5 Change list to long
+* | 4d5c422 remove file
+* | 252d1a7 invoke merge
+* |   9aac82e Merge branch 'inode_update'
+|\ \  
+| |/  
+| * 114589c (orgin/inode_update) Invoke merge
+| * 586290e Invoke merge
+
+
+1D.
+
+When trying to merge the two branches together, we received a merge conflict. To fix the conflict we used git status to see where the conflict happend. Then opened the conflicted file with an editor. We found the conflicting head update and Inode_update branch changes. We deleted the head update change and kept the Inode_update branch change. Then commited the changes to resolve the conflict. 
+If you refrain from updating the master branch before a merge then you will not receive any conflicts. Therefore to manage our project more easilly, we could keep all new file updates into the one branch, and merge it to the master once we know its ready. This way the master branch remains unedited and will not conflict the merge process. 
